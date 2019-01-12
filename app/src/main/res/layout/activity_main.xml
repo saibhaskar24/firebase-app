@@ -26,21 +26,30 @@
         android:id="@+id/g"
         android:layout_width="368dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="260dp"
         android:entries="@array/g"
         android:spinnerMode="dropdown"
-        app:layout_constraintBottom_toTopOf="@+id/a"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="96dp" />
 
     <Button
         android:id="@+id/a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_width="113dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="400dp"
+        android:layout_marginTop="8dp"
+        android:onClick="ad"
         android:text="@string/add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:onClick="ad"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/g" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="368dp"
+        android:layout_height="399dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="233dp" />
 </android.support.constraint.ConstraintLayout>
