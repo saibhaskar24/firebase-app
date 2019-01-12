@@ -1,0 +1,12 @@
+<resources>
+
+    <array name="g">
+        <item>Rock</item>
+        <item>Sufi</item>
+        <item>Pop</item>
+        <item>Folk</item>
+    </array>
+    <string name="app_name">database</string>
+    <string name="name">name</string>
+    <string name="add">Add</string>
+</resources>
